@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dream.dataservice.springboot_dataservice.dao.IUserDao" >
+  <select id="selectUsers" resultType="com.dream.dataservice.springboot_dataservice.bean.UserBean">
+  	SELECT T.ID,T.NAME FROM T_USER T
+  </select>
+</mapper>
